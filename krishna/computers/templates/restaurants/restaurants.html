@@ -1,0 +1,11 @@
+{% extends "base.html"%}
+
+{% block content %}
+<h1>Laptops</h1>
+<ul>
+{% for item in Home %}
+	<li>{{item.name}} {{item.Rating }} {{ item.Reviews}} {{item.expiry_time }}</li>
+{% endfor %}
+</ul>	
+	{% endblock %}
+	
