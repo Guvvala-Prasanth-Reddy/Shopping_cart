@@ -1,1 +1,1 @@
-# Shopping_cart
+# Shopping_cart using django
